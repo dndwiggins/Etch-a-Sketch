@@ -3,8 +3,18 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 100vh;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
 
+
+}
+
+.btnBox {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .outerBox {
@@ -20,10 +30,8 @@
     flex: auto;
     justify-content: center;
     align-items: center;
-    border: 2px;
-    border-style: solid;
-    border-color: black;
+
     height: 30px;
-    width: 50px;
+
 
 }
