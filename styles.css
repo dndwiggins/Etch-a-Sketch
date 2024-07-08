@@ -6,7 +6,7 @@
     border: 2px;
     border-style: solid;
     border-color: black;
-
+    height: 500px;
 
 }
 
@@ -22,7 +22,8 @@
     flex: auto;
     flex-direction: column;
     align-content: flex-start;
-
+    height: 100%;
+    width: 100%;
 }
 
 .innerBox {
@@ -30,8 +31,8 @@
     flex: auto;
     justify-content: center;
     align-items: center;
-
-    height: 30px;
+    height: 100%;
+    width: 100%;
 
 
 }
